@@ -1,0 +1,17 @@
+[
+    {
+        "articleStyle": 0,
+        "customOrder": 0,
+        "enableJs": true,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "lastUpdateTime": 0,
+        "loadWithBaseUrl": true,
+        "singleUrl": true,
+        "sourceComment": "官网:https://hintryer.github.io/book/index.html",
+        "sourceGroup": "书源",
+        "sourceIcon": "https://shuyuan.yiove.com/logo.jpeg",
+        "sourceName": "book仓库",
+        "sourceUrl": "https://hintryer.github.io/book/index.html"
+    }
+]

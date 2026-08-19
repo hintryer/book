@@ -1,0 +1,49 @@
+{
+  "bookSourceUrl": "https://raw.githubusercontent.com/hintryer/book/refs/heads/main/test/book.json",
+  "bookSourceName": "本地JSON书源",
+  "bookSourceGroup": "",
+  "bookSourceType": 0,
+  "bookSourceComment": "基于本地JSON文件的书源配置",
+  "enabled": true,
+  "enabledExplore": false,
+  "concurrentRate": "1",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0\"\n}",
+  "loginUrl": "",
+  "bookUrlPattern": "",
+  "searchUrl": "",
+  "exploreUrl": "testbook::https://raw.githubusercontent.com/hintryer/book/refs/heads/main/test/book.json",
+  "ruleSearch": {
+    "bookList": "$.book",
+    "name": "$.title",
+    "author": "$.author",
+    "coverUrl": "$.cover",
+    "intro": "$.intro",
+    "bookUrl": ""
+  },
+  "ruleBookInfo": {
+    "init": "",
+    "name": "$.book.title",
+    "author": "$.book.author",
+    "coverUrl": "$.book.cover",
+    "intro": "$.book.intro",
+    "tocUrl": ""
+  },
+  "ruleToc": {
+    "chapterList": "$.book.chapters[*]",
+    "chapterName": "$.chapterTitle",
+    "chapterUrl": "$.content",
+    "isVolume": false,
+    "updateTime": "",
+    "isVip": "",
+    "isPay": ""
+  },
+  "ruleContent": {
+    "content": "",
+    "nextContentUrl": "",
+    "webJs": "",
+    "sourceRegex": ""
+  },
+  "weight": 0,
+  "customOrder": 0,
+  "lastUpdateTime": 0
+}
