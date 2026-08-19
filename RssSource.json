@@ -1,17 +1,46 @@
 [
     {
-        "articleStyle": 0,
-        "customOrder": 0,
-        "enableJs": true,
         "enabled": true,
-        "enabledCookieJar": true,
-        "lastUpdateTime": 0,
-        "loadWithBaseUrl": true,
         "singleUrl": true,
-        "sourceComment": "官网:https://hintryer.github.io/book/index.html",
+        "sourceUrl": "https:\/\/hintryer.github.io\/book\/",
+        "sourceComment": "官网:https:\/\/hintryer.github.io\/book\/",
         "sourceGroup": "书源",
-        "sourceIcon": "https://shuyuan.yiove.com/logo.jpeg",
+        "articleStyle": 0,
+        "enableJs": true,
+        "sourceIcon": "https:\/\/shuyuan.yiove.com\/logo.jpeg",
         "sourceName": "book仓库",
-        "sourceUrl": "https://hintryer.github.io/book/index.html"
+        "loadWithBaseUrl": true,
+        "customOrder": 0
+    },
+    {
+        "enabled": true,
+        "singleUrl": true,
+        "sourceUrl": "https:\/\/shuyuan.yiove.com",
+        "sourceComment": "官网：www.yiove.com",
+        "sourceGroup": "书源",
+        "articleStyle": 0,
+        "enableJs": true,
+        "sourceIcon": "https:\/\/shuyuan.yiove.com\/logo.jpeg",
+        "sourceName": "Yiove 书源仓库",
+        "loadWithBaseUrl": true,
+        "customOrder": 0
+    },
+    {
+        "ruleDescription": "<iframe src=\"{{$..daoru}}https:\/\/gitee.com\/better__off\/yuedu\/raw\/master\/{{$.path}}\" hidden><\/iframe>\r\n\r\n  <div>书源自动导入，其它复制后导入<\/div>\r\n  <textarea id=\"copy\"> https:\/\/gitee.com\/better__off\/yuedu\/raw\/master\/{{$.path}}<\/textarea>",
+        "loadWithBaseUrl": true,
+        "ruleLink": "https:\/\/www.gitlink.org.cn\/api\/morp\/yuedu\/raw\/{{$.path}}?ref=master",
+        "sourceIcon": "https:\/\/inisqw.gitee.io\/rss\/66.jpg",
+        "sourceUrl": "https:\/\/gitee.com\/better__off\/yuedu\/raw\/master\/156\/dywz.json",
+        "articleStyle": 0,
+        "ruleTitle": "name",
+        "sourceName": "个人gitee",
+        "enabled": true,
+        "ruleArticles": "entries",
+        "singleUrl": false,
+        "sourceComment": "",
+        "rulePubDate": "{{$..created_at}}😊{{$..time_from_now}}😊{{$..message}}{{$.path2}}",
+        "ruleImage": "@js:\"https:\/\/inisqw.gitee.io\/rss\/66.jpg\"",
+        "enableJs": true,
+        "customOrder": 0
     }
 ]
