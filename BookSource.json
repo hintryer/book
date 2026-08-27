@@ -774,56 +774,6 @@
         "customOrder": 45
     },
     {
-        "ruleContent": {
-            "content": "id.content@html##请记住本书首发域名：|.net。|顶点小说手机版阅读网址：|最新网址.*com"
-        },
-        "ruleExplore": {
-            "coverUrl": "img@src",
-            "author": "class.newbook_author@a@text",
-            "bookUrl": "class.newbook_title@a@href@js:'https:\/\/www.mayiwsk.com'+result",
-            "name": "class.newbook_title@a@text",
-            "bookList": "class.newbook_list",
-            "intro": "class.newbook_intor@text"
-        },
-        "weight": 0,
-        "bookSourceGroup": "小说",
-        "loginUrl": "",
-        "searchUrl": "https:\/\/www.mayiwsk.com\/modules\/article\/search.php?searchkey={{key}}",
-        "ruleSearch": {
-            "author": "td:eq(2)@text",
-            "bookList": "class.grid@tag.tr!0",
-            "lastChapter": "td:eq(1) a@text",
-            "coverUrl": "td:eq(0) a@href<js>\nvar id = result.match(\/(\\d+)\\\/?$\/)[1];\nvar iid = parseInt(id\/1000);\n'https:\/\/www.mayiwsk.com\/files\/article\/image\/'+iid+'\/'+id+'\/'+id+'s.jpg';\n<\/js>",
-            "kind": "td:eq(5)@text",
-            "bookUrl": "td:eq(0) a@href",
-            "name": "td:eq(0) a@text"
-        },
-        "enabledExplore": true,
-        "ruleBookInfo": {
-            "coverUrl": "id.fmimg@tag.img:eq(0)@src",
-            "author": "id.info@p:eq(0)@text##作    者：",
-            "kind": "p:contains(最后更新)@text",
-            "name": "id.info@tag.h1:eq(0)@text",
-            "intro": "id.intro@text",
-            "lastChapter": "id.info@tag.p:eq(3)@a@text"
-        },
-        "ruleToc": {
-            "chapterName": "tag.a@text",
-            "chapterUrl": "tag.a@href",
-            "chapterList": "id.list@tag.dd"
-        },
-        "bookSourceUrl": "https:\/\/www.mayiwsk.com\/#♤pb",
-        "lastUpdateTime": 1765432784296,
-        "customOrder": 49,
-        "bookSourceType": 0,
-        "enabled": true,
-        "bookSourceName": "蚂蚁文学",
-        "bookSourceComment": "",
-        "respondTime": 6069,
-        "exploreUrl": "玄幻小说::https:\/\/m.mayiwsk.com\/sort\/1_{{page}}\/\n修真小说::https:\/\/m.mayiwsk.com\/sort\/2_{{page}}\/\n都市小说::https:\/\/m.mayiwsk.com\/sort\/3_{{page}}\/\n穿越小说::https:\/\/m.mayiwsk.com\/sort\/4_{{page}}\/\n网游小说::https:\/\/m.mayiwsk.com\/sort\/5_{{page}}\/\n科幻小说::https:\/\/m.mayiwsk.com\/sort\/6_{{page}}\/\n其他小说::https:\/\/m.mayiwsk.com\/sort\/7_{{page}}\/\n女生频道::https:\/\/m.mayiwsk.com\/sort\/8_{{page}}\/",
-        "bookUrlPattern": "https:\/\/www.mayiwsk.com\/\\d+_\\d+\/"
-    },
-    {
         "ruleExplore": {
             "coverUrl": "a@href##.*\\\/(\\d+)(\\d{3})\\\/##\/headimgs\/$1\/$1$2\/s$1$2.jpg",
             "author": ".s3@text",
@@ -874,48 +824,6 @@
         "bookSourceGroup": "小说",
         "exploreUrl": "",
         "customOrder": 62
-    },
-    {
-        "ruleExplore": {},
-        "bookSourceType": 0,
-        "ruleSearch": {
-            "coverUrl": "img@src",
-            "author": ".author a@text",
-            "bookUrl": "a@href",
-            "name": ".bookname a@text",
-            "bookList": ".bookbox",
-            "lastChapter": "{{@@.intro_line a@text}}🔸{{@@.cat@text##时间：}}"
-        },
-        "ruleBookInfo": {
-            "author": ".block_txt2 tag.a.1@text",
-            "tocUrl": "text.章节目录@href",
-            "lastChapter": ".block_txt2 tag.a.-1@text",
-            "wordCount": "{{@@.block_txt2@tag.p.5@text##热度：}}{{@@.block_txt2@tag.p.4@text##状态：}}",
-            "intro": "☁️ 更新时间：\n\n{{@@.block_txt2@tag.p.6@text##更新时间：}}\n\n👻  简介：\n\n{{@@.bk-intro-bd@textNodes##.*网址.*}}",
-            "coverUrl": ".block_img2 img@src",
-            "kind": ".block_txt2@tag.p.3@tag.a@text",
-            "name": "h2@text"
-        },
-        "respondTime": 184692,
-        "ruleContent": {
-            "content": "#nr@html##.*悠久小说.*|.*百度.*|.*佰度.*|.*第.*页.*|.*标记书.*|.*转载自网络.*|上一章|下一章|上一页|下一页|关灯|护眼|报错|查看目录|最新网址.*|.*免费小说.*|.*入书架.*|手机版|电脑版|催更|.*联系予.*|.*继续阅读.*|\\*|.*本章完.*|.*本章节.*|.*第\\d章.*|79免费.*",
-            "nextContentUrl": "text.下一页@href"
-        },
-        "searchUrl": "\/searchbooks.php,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
-        "weight": 0,
-        "enabledExplore": true,
-        "ruleToc": {
-            "chapterName": "text",
-            "chapterUrl": "href",
-            "chapterList": "#chapterList a"
-        },
-        "enabled": true,
-        "bookSourceUrl": "http:\/\/wap.ujxsw.org\/##@鱼",
-        "lastUpdateTime": 1767257124940,
-        "bookSourceName": "悠久小说",
-        "exploreUrl": "",
-        "bookSourceGroup": "小说",
-        "customOrder": 80
     },
     {
         "ruleContent": { "content": "#Content@p@html" },
